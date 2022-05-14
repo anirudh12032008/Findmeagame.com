@@ -35,7 +35,7 @@ document.write( `<div class="container"> <p style='background-color: #ffb6c1 tex
         document.write(quotes[i] + "\"");
         document.write("<em>- " + sources[i] + "</em>");
         document.write("</p> ");
-    document.write(img[i] + "\"");
+    document.write(`img[i] + "\"`);
     document.write('<button onclick="getGame()">Get game</button>');
     document.write(" </div> ");
 }
