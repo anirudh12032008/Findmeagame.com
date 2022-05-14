@@ -1,7 +1,7 @@
 function getGame() {
-var quotes = new Array(4);
-var sources = new Array(4);
-var img = new Array(4);
+var quotes = new Array(9);
+var sources = new Array(9);
+var img = new Array(9);
 
 
 quotes[0] = "Cricket";
@@ -27,6 +27,46 @@ quotes[3] = "volleyball";
 sources[3] = "5-12 players";
 img[3] = `<img
     src="https://images.unsplash.com/photo-1593787406536-3676a152d9cb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    alt="" style="height: 50vh; border-radius: 5px;">`
+
+
+
+quotes[4] = "Chess";
+sources[4] = "2 players";
+img[4] = `<img
+    src="https://images.unsplash.com/photo-1528819622765-d6bcf132f793?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    alt="" style="height: 50vh; border-radius: 5px;">`
+
+
+
+quotes[5] = "Carrom";
+sources[5] = "2-4 players";
+img[5] = `<img
+    src="https://images.unsplash.com/photo-1617300067484-314ed2cfd9a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
+    alt="" style="height: 50vh; border-radius: 5px;">`
+
+
+
+quotes[6] = "UNO";
+sources[6] = "2-10 players";
+img[6] = `<img
+    src="https://images.unsplash.com/photo-1595538742276-54d443f3b575?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80"
+    alt="" style="height: 50vh; border-radius: 5px;">`
+
+
+
+quotes[7] = "Matchstick Puzzle";
+sources[7] = "2-10 players";
+img[7] = `<img
+    src="https://media.istockphoto.com/photos/numbers-made-with-matches-picture-id106587785?s=612x612"
+    alt="" style="height: 50vh; border-radius: 5px;">`
+
+
+
+quotes[8] = "Cups Game";
+sources[8] = "2-10 players";
+img[8] = `<img
+    src="https://media.istockphoto.com/photos/office-work-picture-id865052644?s=612x612"
     alt="" style="height: 50vh; border-radius: 5px;">`
 
 
