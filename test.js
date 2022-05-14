@@ -71,11 +71,15 @@ img[8] = `<img
 
 
 i = Math.floor(Math.random() * quotes.length);
-document.write( `<div class="container"> <p style='background-color: #ffb6c1 text-align: center'>\"`);
-    document.write(quotes[i] + "\"");
-    document.write("<em>- " + sources[i] + "</em>");
+    // document.write(`<h1>Random Games Finder</h1> <p>Get Random games</p>`)
+    document.write( `<div class="container" style= "display: flex; background-color: antiquewhite; align-items: center; flex-direction: column;"> `);
+    document.write( `<h1> `);
+    document.write(quotes[i] + `<br>`);
+    document.write( `</h1> `);
+    document.write( ` <p style='background-color: #ffb6c1 text-align: center'>`);
+    document.write("<em> " + sources[i] + "</em>");
     document.write("</p> ");
-    document.write(img[i] + "\"");
-    document.write('<button onclick="getGame()">Get game</button>');
+    document.write(img[i] );
+    document.write('<button style=" margin: 7px; padding: 5px 10px; background-color:  rgb(130, 88, 226) ; color: black; font-weight: bold ; width: 30vh; height: 10vh;" onclick="getGame()">Get game</button>');
     document.write(" </div> ");
 }
