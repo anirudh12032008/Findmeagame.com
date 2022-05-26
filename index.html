@@ -20,18 +20,18 @@
 
         } */
     </style>
-    <script src="test.js"></script>
+    <script src="index.js"></script>
 </head>
 
 <body>
     <h1>Random Games Finder</h1>
     <p>Get Random games</p>
     <div id="container">
-
+        <h1 id="name"></h1>
     </div>
-    <button
+    <button id="btn1"
         style="padding: 5px 10px; background-color:  rgb(130, 88, 226) ; color: black; font-weight: bold ; width: 30vh; height: 10vh;"
-        onclick="getGame()">Get game</button>
+        onclick="getGame(); disableButton();">Get game</button>
 
     <script>
 
